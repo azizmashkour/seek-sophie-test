@@ -2,7 +2,7 @@
   <div class="pt-4" id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-6 col-lg-2 mb-3 mb-lg-0">
+        <div class="col-12 col-lg-2 mb-3 mb-lg-0">
           <ul class="list-unstyled list-spaced">
             <li class="mb-1">
               <h5 class="text-uppercase">Destinations</h5>
@@ -24,7 +24,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-6 col-lg-3 mb-3 mb-lg-0">
+        <div class="col-12 col-lg-3 mb-3 mb-lg-0">
           <ul class="list-unstyled list-spaced">
             <li class="mb-1">
               <h5 class="text-uppercase">Explore adventures</h5>
@@ -58,7 +58,7 @@
             </div>
           </ul>
         </div>
-        <div class="col-6 col-lg-2 mb-3 mb-lg-0">
+        <div class="col-12 col-lg-2 mb-3 mb-lg-0">
           <ul class="list-unstyled list-spaced">
             <li class="mb-1">
               <h5 class="text-uppercase">Seek Sophie</h5>
@@ -77,10 +77,10 @@
             </li>
           </ul>
         </div>
-        <div class="col-6 col-lg-4 mb-3 mb-lg-0 ml-auto">
+        <div class="col-12 col-lg-4 mb-3 mb-lg-0 ml-auto">
           <ul class="list-unstyled list-spaced">
             <div class="row no-gutters">
-              <div class="col-lg-3">
+              <div class="col-lg-3 footer-img">
                 <img src="../../assets/images/magazines/footer-book.svg" alt="logo">
               </div>
               <div class="col-lg-9">

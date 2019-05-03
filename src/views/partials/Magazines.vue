@@ -53,6 +53,9 @@ export default {};
   background-color: rgb(245, 245, 245);
   padding: 3rem 0;
   border-top: 1px solid #ccc;
+  .card {
+    border-radius: 0;
+  }
   h2 {
     font-size: 18px;
     line-height: 24px;

@@ -84,10 +84,10 @@
 </template>
 
 <script>
-import DaylyCarousel from './DaylyCarousel.vue'
-import DaylyNasalis from './DaylyNasalis.vue'
-import DaylyRiver from './DaylyRiver.vue'
-import DaylyTrek from './DaylyTrek.vue'
+import DaylyCarousel from "./DaylyCarousel.vue";
+import DaylyNasalis from "./DaylyNasalis.vue";
+import DaylyRiver from "./DaylyRiver.vue";
+import DaylyTrek from "./DaylyTrek.vue";
 
 export default {
   components: {
@@ -96,7 +96,7 @@ export default {
     DaylyRiver,
     DaylyTrek
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -288,7 +288,7 @@ export default {
       }
       .features-border:last-child {
         border-bottom: 1px solid #e5e5e5;
-        border-radius: 0px 0px 5px 5px;
+        border-radius: 0;
       }
       .services {
         list-style: none;

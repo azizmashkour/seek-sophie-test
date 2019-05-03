@@ -1,7 +1,7 @@
 <template>
   <div class="row no-gutters align-items-center features-border first-border">
     <div class="col-lg-2 col-sm-12 text-center">
-      <img width="121" height="80" src="../../../assets/images/logo.jpg" alt="Logo">
+      <img width="121" height="80" src="../../../assets/images/mountain.jpg" alt="Logo">
     </div>
     <div class="col-lg-6 daily-short-content">
       <div class="features-title pl-0 mb-0">
@@ -17,7 +17,7 @@
       </div>
       <div class="features-experiences pl-0 mb-0fas-2 py-2">
         <div class="stars-container">
-          <i class="fas fa-star"></i>
+          <i class="fas fa-star pr-1"></i>
           <span class="stars-number">4.93</span>
           <span class="stars">(58)</span>
         </div>
@@ -43,7 +43,7 @@
           <li>Transport, Free cancellation</li>
         </ul>
       </div>
-      <div class="col-lg-2 text-center">
+      <div class="col-lg-2 col-3">
         <i
           class="fas fa-chevron-down feature-collapse"
           data-toggle="collapse"

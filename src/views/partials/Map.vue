@@ -10,7 +10,7 @@
           <div class="overflow-single">
             <div class="row align-items-center py-3">
               <div class="col-lg-4 pr-0">
-                <img src="../../assets/images/map/tree.jpg" class="w-100">
+                <img src="../../assets/images/mountain.jpg" class="w-100">
                 <div class="travel-pic">
                   <i class="fas fa-heart"></i>
                   <span>Traveller’s Pick!</span>
@@ -39,7 +39,7 @@
           <div class="overflow-single">
             <div class="row align-items-center py-3">
               <div class="col-lg-4 pr-0">
-                <img src="../../assets/images/map/tree.jpg" class="w-100">
+                <img src="../../assets/images/mountain.jpg" class="w-100">
                 <div class="bucket-list">
                   <i class="fas fa-map-marker"></i>
                   <span>Bucketlist</span>
@@ -68,7 +68,7 @@
           <div class="overflow-single">
             <div class="row align-items-center py-3">
               <div class="col-lg-4 pr-0">
-                <img src="../../assets/images/map/tree.jpg" class="w-100">
+                <img src="../../assets/images/mountain.jpg" class="w-100">
               </div>
               <div class="col-lg-8">
                 <h3>3. Mabul Dives</h3>
@@ -93,7 +93,7 @@
           <div class="overflow-single">
             <div class="row align-items-center py-3">
               <div class="col-lg-4 pr-0">
-                <img src="../../assets/images/map/tree.jpg" class="w-100">
+                <img src="../../assets/images/mountain.jpg" class="w-100">
               </div>
               <div class="col-lg-8">
                 <h3>4. Kinabalu Snorkelling</h3>
@@ -118,7 +118,7 @@
           <div class="overflow-single border-0">
             <div class="row align-items-center py-3">
               <div class="col-lg-4 pr-0">
-                <img src="../../assets/images/map/tree.jpg" class="w-100">
+                <img src="../../assets/images/mountain.jpg" class="w-100">
               </div>
               <div class="col-lg-8 map-contents">
                 <h3>5. Kinabalu Dives</h3>
@@ -200,54 +200,56 @@
 <script>
 export default {
   mounted() {
-    var markers = [];
-    var locations = [
-      [1, "Title 1", 41.338, 19.788],
-      [2, "Title 2", 41.38, 19.8165],
-      [3, "Title 3", 41.345, 19.8152],
-      [4, "Title 4", 41.3, 19.92]
-    ];
-    var contentString = this.$refs.infoWindow;
+    $(() => {
+      var markers = [];
+      var locations = [
+        [1, "Title 1", 41.338, 19.788],
+        [2, "Title 2", 41.38, 19.8165],
+        [3, "Title 3", 41.345, 19.8152],
+        [4, "Title 4", 41.3, 19.92]
+      ];
+      var contentString = this.$refs.infoWindow;
 
-    var map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 12,
-      center: { lat: 41.327546, lng: 19.818698 }
-    });
+      var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 12,
+        center: { lat: 41.327546, lng: 19.818698 }
+      });
 
-    setMarkers(map);
+      setMarkers(map);
 
-    function setMarkers(map) {
-      for (var i = 0; i < locations.length; i++) {
-        var location = locations[i];
-        var locationInfowindow = new google.maps.InfoWindow({
-          content: contentString
-        });
+      function setMarkers(map) {
+        for (var i = 0; i < locations.length; i++) {
+          var location = locations[i];
+          var locationInfowindow = new google.maps.InfoWindow({
+            content: contentString
+          });
 
-        var marker = new google.maps.Marker({
-          position: { lat: location[2], lng: location[3] },
-          map: map,
-          title: location[1],
-          infowindow: locationInfowindow,
-          icon:
-            "https://seek-sophie-app.herokuapp.com/images/markers/numerize-" +
-            location[0] +
-            ".svg"
-        });
+          var marker = new google.maps.Marker({
+            position: { lat: location[2], lng: location[3] },
+            map: map,
+            title: location[1],
+            infowindow: locationInfowindow,
+            icon:
+              "https://seek-sophie-app.herokuapp.com/images/markers/numerize-" +
+              location[0] +
+              ".svg"
+          });
 
-        markers.push(marker);
+          markers.push(marker);
 
-        google.maps.event.addListener(marker, "click", function() {
-          hideAllInfoWindows(map);
-          this.infowindow.open(map, this);
+          google.maps.event.addListener(marker, "click", function() {
+            hideAllInfoWindows(map);
+            this.infowindow.open(map, this);
+          });
+        }
+      }
+
+      function hideAllInfoWindows(map) {
+        markers.forEach(function(marker) {
+          marker.infowindow.close(map, marker);
         });
       }
-    }
-
-    function hideAllInfoWindows(map) {
-      markers.forEach(function(marker) {
-        marker.infowindow.close(map, marker);
-      });
-    }
+    });
   }
 };
 </script>
@@ -273,8 +275,8 @@ export default {
       bottom: 0;
       .map-category {
         position: absolute;
-        top: -188px;
-        right: -16px;
+        top: -11.75rem;
+        right: -0.5rem;
         background-color: #df3c31;
         padding: 0.25rem;
         color: #fff;
@@ -384,6 +386,7 @@ export default {
   overflow-y: auto;
   height: 720px;
   min-width: 25%;
+  box-shadow: -1px -2px 17px -9px rgba(0, 0, 0, 0.15);
 
   .top-adventures {
     font-size: 21px;

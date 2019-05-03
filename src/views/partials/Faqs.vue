@@ -167,45 +167,45 @@
                   <h6 class="text-dark pb-3">- John and Melanie, Apr 2019</h6>
                 </div>
               </div>
-            </div>
-            <div class="carousel-item">
-              <div class="d-block w-100">
-                <p
-                  class="mt-3"
-                >“Booked through Seek Sophie - very responsive rep Mr Jackz Lee. Assigned mountain guides were professional n experience....encourage my fellow team mates along the way 👍 We trained for almost half a year...still is a tough climb, but we gain a lot from it 💪🏽”</p>
-                <h6 class="text-dark pb-3">- John and Melanie, Apr 2019</h6>
+              <div class="carousel-item">
+                <div class="d-block w-100">
+                  <p
+                    class="mt-3"
+                  >“Booked through Seek Sophie - very responsive rep Mr Jackz Lee. Assigned mountain guides were professional n experience....encourage my fellow team mates along the way 👍 We trained for almost half a year...still is a tough climb, but we gain a lot from it 💪🏽”</p>
+                  <h6 class="text-dark pb-3">- John and Melanie, Apr 2019</h6>
+                </div>
               </div>
-            </div>
-            <div class="carousel-item">
-              <div class="d-block w-100">
-                <p
-                  class="mt-3"
-                >“Booked through Seek Sophie - very responsive rep Mr Jackz Lee. Assigned mountain guides were professional n experience....encourage my fellow team mates along the way 👍 We trained for almost half a year...still is a tough climb, but we gain a lot from it 💪🏽”</p>
-                <h6 class="text-dark pb-3">- John and Melanie, Apr 2019</h6>
+              <div class="carousel-item">
+                <div class="d-block w-100">
+                  <p
+                    class="mt-3"
+                  >“Booked through Seek Sophie - very responsive rep Mr Jackz Lee. Assigned mountain guides were professional n experience....encourage my fellow team mates along the way 👍 We trained for almost half a year...still is a tough climb, but we gain a lot from it 💪🏽”</p>
+                  <h6 class="text-dark pb-3">- John and Melanie, Apr 2019</h6>
+                </div>
               </div>
-            </div>
-            <div class="carousel-item">
-              <div class="d-block w-100">
-                <p
-                  class="mt-3"
-                >“Booked through Seek Sophie - very responsive rep Mr Jackz Lee. Assigned mountain guides were professional n experience....encourage my fellow team mates along the way 👍 We trained for almost half a year...still is a tough climb, but we gain a lot from it 💪🏽”</p>
-                <h6 class="text-dark pb-3">- John and Melanie, Apr 2019</h6>
+              <div class="carousel-item">
+                <div class="d-block w-100">
+                  <p
+                    class="mt-3"
+                  >“Booked through Seek Sophie - very responsive rep Mr Jackz Lee. Assigned mountain guides were professional n experience....encourage my fellow team mates along the way 👍 We trained for almost half a year...still is a tough climb, but we gain a lot from it 💪🏽”</p>
+                  <h6 class="text-dark pb-3">- John and Melanie, Apr 2019</h6>
+                </div>
               </div>
-            </div>
-            <div class="carousel-item">
-              <div class="d-block w-100">
-                <p
-                  class="mt-3"
-                >“Booked through Seek Sophie - very responsive rep Mr Jackz Lee. Assigned mountain guides were professional n experience....encourage my fellow team mates along the way 👍 We trained for almost half a year...still is a tough climb, but we gain a lot from it 💪🏽”</p>
-                <h6 class="text-dark pb-3">- John and Melanie, Apr 2019</h6>
+              <div class="carousel-item">
+                <div class="d-block w-100">
+                  <p
+                    class="mt-3"
+                  >“Booked through Seek Sophie - very responsive rep Mr Jackz Lee. Assigned mountain guides were professional n experience....encourage my fellow team mates along the way 👍 We trained for almost half a year...still is a tough climb, but we gain a lot from it 💪🏽”</p>
+                  <h6 class="text-dark pb-3">- John and Melanie, Apr 2019</h6>
+                </div>
               </div>
-            </div>
-            <div class="carousel-item">
-              <div class="d-block w-100">
-                <p
-                  class="mt-3"
-                >“Booked through Seek Sophie - very responsive rep Mr Jackz Lee. Assigned mountain guides were professional n experience....encourage my fellow team mates along the way 👍 We trained for almost half a year...still is a tough climb, but we gain a lot from it 💪🏽”</p>
-                <h6 class="text-dark pb-3">- John and Melanie, Apr 2019</h6>
+              <div class="carousel-item">
+                <div class="d-block w-100">
+                  <p
+                    class="mt-3"
+                  >“Booked through Seek Sophie - very responsive rep Mr Jackz Lee. Assigned mountain guides were professional n experience....encourage my fellow team mates along the way 👍 We trained for almost half a year...still is a tough climb, but we gain a lot from it 💪🏽”</p>
+                  <h6 class="text-dark pb-3">- John and Melanie, Apr 2019</h6>
+                </div>
               </div>
             </div>
           </div>
